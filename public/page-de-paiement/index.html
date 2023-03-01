@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="/page-de-paiement/style.css" rel="stylesheet"></link>
+  <title>Frontend Mentor | Interactive card details form</title>
+</head>
+
+<body>
+<div class="flex-container">
+  <div class="content">
+    <div class="card">
+      <div id="card-recto">
+        <img src="/page-de-paiement/images/bg-card-front.png">
+        <div id="zero">
+          <p id="ZERO">0000 0000 0000 0000</p>
+        </div>
+        <div id="nameExpiration">
+          <p id="name">Enora Heltzle</p>
+          <p id="expiration">00/00</p>
+        </div>
+        <div id="cercle"></div>
+        <div id="little-cercle"></div>
+      </div>
+      <div id="card-verso">
+        <img src="/page-de-paiement/images/bg-card-back.png"></img>
+        <div id="secretCode">
+          <p id="code">000</p>
+        </div>
+      </div>
+    </div>
+    
+    <div id="background">
+      <img id="background" src="/page-de-paiement/images/bg-main-desktop.png">
+    </div>
+  
+    <div id="informations">
+      <form id="codes">
+        <label for="input-name">Cardholder Name</label>
+        <input type="text" placeholder="NAME" id="input-name" name="input-name"></input>
+  
+        <label for="input-card-number">Card Number</label>
+        <input type="text" placeholder="**** **** **** ****" id="input-card-number" name="input-card-number"></input>
+        <div id="more-label"> 
+          <label id="EXP" for="input-month-exp">EXP. Date</label>
+          <label for="input-cvc">CVC</label>
+        </div> 
+        <div class="more-infos">
+          <div class="more-input">
+            <input class="month_year" type="text" placeholder="MM" id="input-month-exp" name="input-month-exp"></input>
+            <input class="month_year" type="text" placeholder="YY" id="input-year-exp" name="input-year-exp"></input>
+            <input id="cvc" type="text" placeholder="***" id="input-cvc" name="input-cvc"></input>
+          </div>
+        </div>
+        <button id="validation">Confirm</button>
+      </form>
+      <div id="retour">
+        <button id="back">Go Back</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</body>
+</html>
