@@ -962,4 +962,16 @@ input:checked + .slide-container .nav label { display: block; }
       object-fit: cover;
     }
 
+    .carousel-controls label {
+      opacity: 0;
+    }
+    
+    .slide-image:hover + .carousel-controls label{
+      opacity: 0.5;
+    }
+    
+    .carousel-controls label:hover {
+      opacity: 1;
+    }
+
   }
