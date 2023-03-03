@@ -64,6 +64,3 @@ const arrow = document.getElementById("arrow");
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
-
-
-
