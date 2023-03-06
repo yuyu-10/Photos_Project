@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap" rel="stylesheet">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Enora Heltzle</title>
 </head>
 <body>
@@ -88,7 +88,7 @@
 
             <div id="street">
 
-                <div id="container-street">
+                <div id="container-street" data-aos="flip-up">
                     <img src="photos/promenade.jpg" id="prom">
                     <div class="the-street">
                         <img src="photos/building-2.jpg" class="building" id="little-building">
@@ -139,7 +139,8 @@
                     <img src="photos/rotate-car.jpeg" alt="" id="rotate-car">
                     <div id="white-block"></div>
                 </div>
-                <div id="div-photo-car">
+                <div id="div-photo-car" data-aos="fade-up"
+                data-aos-anchor-placement="top-center">
                     <img src="photos/car.jpeg" alt="" id="car">
                 </div>
             </div>
@@ -152,7 +153,7 @@
                 </div>
             </div>
 
-            <div id="street-3-pc">
+            <div id="street-3-pc" data-aos="zoom-in-up">
                 <div id="container-1">
                     <div id="div-tacombi">
                         <img src="photos/TACOMBI.jpeg" alt="" id="tacombi"> 
@@ -252,22 +253,22 @@
                 <img src="photos/wall-face.jpg" alt="" id="wall-face">
 
                 <div id="container-img-portraits">
-                    <div class="image-portrait-left">
+                    <div class="image-portrait-left" data-aos="fade-right">
                         <img src="photos/eno-face.jpg"alt="">
                         <h1 class="portraits-title">PERSPECTIVE</h1>
                         <!-- <img src="photos/eno-face.jpg" alt="" class="filter"> -->
                     </div>
-                    <div class="image-portrait-right" >
+                    <div class="image-portrait-right" data-aos="fade-left">
                         <!-- <img src="photos/mae-face.jpg" alt="" class="filter"> -->
                         <h1 class="portraits-title">PERSPECTIVE</h1>
                         <img src="photos/mae-face.jpg" alt="">
                     </div>
-                    <div class="image-portrait-left">
+                    <div class="image-portrait-left" data-aos="fade-right">
                         <img src="photos/miroir-face.jpg" alt="">
                         <h1 class="portraits-title">PERSPECTIVE</h1>
                         <!-- <img src="photos/miroir-face.jpg" alt="" class="filter"> -->
                     </div>
-                    <div class="image-portrait-right">
+                    <div class="image-portrait-right" data-aos="fade-left">
                         <!-- <img src="photos/polaroide-face.jpg" alt="" class="filter"> -->
                         <h1 class="portraits-title">PERSPECTIVE</h1>
                         <img src="photos/polaroide-face.jpg" alt="">
@@ -276,6 +277,12 @@
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+AOS.init({
+  startEvent: 'load',
+});
+      </script>
 </body>
 <script src="slider.js"></script>
 <script src="page.js"></script>
