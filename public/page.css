@@ -385,10 +385,23 @@ a {
   margin-right: 15%;
 }
 
+#container-carousel {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 10%;
+}
+
+#container-carousel h1 {
+  font-size: 5vh;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
 ul.slides {
   display: block;
   position: relative;
-  height: 55vh;
+  height: 35vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -509,6 +522,7 @@ input:checked + .slide-container .nav label { display: block; }
       display: flex;
       justify-content: center;
       flex-direction: column;
+      /* margin-top: 10%; */
     }
 
     #portraits-title {
@@ -532,6 +546,79 @@ input:checked + .slide-container .nav label { display: block; }
     #wall-face {
       width: 100%;
       height: 80%;
+    }
+
+    #section-portrait {
+      margin-top: 20%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .portraits-title {
+      background-image: url(/public/photos/wall-face.jpg);
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 7vh;
+      text-align: center;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: 'Steelfish Rg', 'helvetica neue',
+                  helvetica, arial, sans-serif;
+      /* font-weight: 800; */
+      -webkit-font-smoothing: antialiased;
+      margin: 0;
+      padding: 0;
+      margin-bottom: -0.8rem;
+    }
+
+    #wall-face {
+      width: 100%;
+      height: 80%;
+    }
+
+    #container-img-portraits {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 10%;
+    }
+
+    .image-portrait-left {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .image-portrait-left img {
+      width: 40%;
+      /* border: 3px solid grey; */
+    }
+
+    .image-portrait-left h1 {
+      font-size: 3vh;
+      -webkit-text-stroke: 1px;
+      -webkit-text-stroke-color: black;
+    }
+
+    .image-portrait-right {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .image-portrait-right img {
+      width: 40%;
+      /* border: 3px solid grey; */
+    }
+
+    .image-portrait-right h1 {
+      font-size: 3vh;
+      -webkit-text-stroke: 1px;
+      -webkit-text-stroke-color: black;
     }
 
 @media only screen and (min-width : 1025px) {
@@ -989,6 +1076,7 @@ input:checked + .slide-container .nav label { display: block; }
 
     #container-carousel {
       margin-top: 10%;
+      flex-direction: column;
     }
 
     #container-carousel h1 {
