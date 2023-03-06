@@ -58,6 +58,15 @@ function goPeacePhone() {
   linkPeace.scrollIntoView();
 }
 
+
+const buttonPortraitsPhone = document.getElementById("portrait-phone");
+const linkPortraits = document.getElementById("section-portrait");
+buttonPortraitsPhone.addEventListener("click", goPortraitsPhone);
+function goPortraitsPhone() {
+  closeMenu();
+  linkPortraits.scrollIntoView();
+}
+
 const arrow = document.getElementById("arrow");
   arrow.addEventListener("click", topFunction);
   function topFunction() {
