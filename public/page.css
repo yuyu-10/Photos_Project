@@ -526,7 +526,7 @@ input:checked + .slide-container .nav label { display: block; }
     }
 
     #portraits-title {
-      background-image: url(/public/photos/wall-face.jpg);
+      background-image: url(photos/wall-face.jpg);
       background-repeat: repeat;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -556,7 +556,7 @@ input:checked + .slide-container .nav label { display: block; }
     }
 
     .portraits-title {
-      background-image: url(/public/photos/wall-face.jpg);
+      background-image: url(photos/wall-face.jpg);
       background-repeat: repeat;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -1126,7 +1126,7 @@ input:checked + .slide-container .nav label { display: block; }
     }
 
     .portraits-title {
-      background-image: url(/public/photos/wall-face.jpg);
+      background-image: url(photos/wall-face.jpg);
       background-repeat: repeat;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
