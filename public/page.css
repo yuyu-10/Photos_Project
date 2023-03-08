@@ -54,6 +54,12 @@ width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 35vh;
+  justify-content: center;
+}
+
+.contact {
+  margin-top: 15%;
 }
 
 #name {
