@@ -10,7 +10,7 @@ html, body {
   scroll-behavior: smooth
 }
 
-#photos-accueil, #arrow, #close-menu, #menu, #end-section, #ACCUEIL, #button-street, #peace, #portraits {
+#photos-accueil, #arrow, #close-menu, #menu, .end-section, #ACCUEIL, #button-street, #peace, #portraits {
   display: none;
 }
 
@@ -50,7 +50,7 @@ html, body {
 width: 40%;
 }
 
-#title {
+.title {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -727,7 +727,7 @@ input:checked + .slide-container .nav label { display: block; }
       z-index: 2;
     }
   
-  #title {
+  .title {
       display: flex;
       flex-direction: column;
       /* background-color: purple; */
@@ -738,6 +738,15 @@ input:checked + .slide-container .nav label { display: block; }
       margin-top: 37%;
       position: absolute;
   }
+
+  .contact {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 100%;
+      margin-top: 5%; 
+      position: absolute;
+  }
   
   #name {
       font-size:8vh;
@@ -746,7 +755,7 @@ input:checked + .slide-container .nav label { display: block; }
   #picture-insta-sentence {
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
   }
   
@@ -754,6 +763,10 @@ input:checked + .slide-container .nav label { display: block; }
       display: flex;
       flex-direction: column;
       text-align: center;
+  }
+
+  #sentence-insta p {
+    font-size: 4vh;
   }
   
   #div-insta {
@@ -776,10 +789,10 @@ input:checked + .slide-container .nav label { display: block; }
       z-index: 1;
   }
   
-  #end-section {
+  .end-section {
       display: inline;
       width  : 100%;
-      height : 3px;
+      height : 2px;
       background : black;
       z-index: 3;
   }
@@ -1225,9 +1238,9 @@ input:checked + .slide-container .nav label { display: block; }
       -webkit-text-stroke: 1px;
       -webkit-text-stroke-color: black;
     }
-
+/* 
     footer {
       visibility: hidden;
-    }
+    } */
 
   }
