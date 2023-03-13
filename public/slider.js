@@ -1,4 +1,4 @@
-let links = ["photos/fleur.jpg", "photos/sky.jpg", "photos/montagne.jpg", "photos/sunshine.jpg"]
+let links = ["photos/sunshine.jpg", "photos/sky.jpg", "photos/fleur.jpg", "photos/montagne.jpg"]
 
 const containerSlider = document.getElementsByClassName('slides')[0]
 console.log("coucou")
