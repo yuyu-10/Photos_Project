@@ -1,5 +1,6 @@
 const back = document.getElementById('hamburger-menu');
 const enora = document.getElementById('eno');
+const endPhotos = document.getElementById('end-photos');
 const menu = document.getElementById('menu');
 const cross = document.getElementById('cross');
 const street = document.getElementById('street');
@@ -8,6 +9,7 @@ const street2 = document.getElementById('street-2-mobile');
 const street3 = document.getElementById('street-3-mobile');
 const sectionPeace = document.getElementById('section-peace');
 const sectionPortrait = document.getElementById('section-portrait');
+const sectionContact = document.getElementById('contact');
 
 const btnMenu = document.getElementById('btn-menu');
 btnMenu.addEventListener("click", openMenu);
@@ -16,6 +18,7 @@ function openMenu() {
     back.style.display = "inline";
     enora.style.zIndex = -1;
     menu.style.display = "flex";
+    endPhotos.style.display = "none";
     cross.style.display = "inline";
     street.style.display = "none";
     imgCar.style.visibility = "hidden";
@@ -23,6 +26,7 @@ function openMenu() {
     street3.style.display = 'none';
     sectionPeace.style.display = 'none';
     sectionPortrait.style.display = 'none';
+    sectionContact.style.display = 'none';
 }
 
 const btnCloseMenu = document.getElementById('cross');
@@ -32,6 +36,7 @@ function closeMenu() {
     back.style.display = "none";
     enora.style.zIndex = 0;
     menu.style.display = "none";
+    endPhotos.style.display = "flex";
     cross.style.display = "none";
     street.style.display = "flex";
     imgCar.style.visibility = "visible";
@@ -39,6 +44,7 @@ function closeMenu() {
     street3.style.display = 'inline-block';
     sectionPeace.style.display = 'inline-block';
     sectionPortrait.style.display = 'inline-block';
+    sectionContact.style.display = 'flex';
 }
 
 // const buttonStreet = document.getElementById('button-street');

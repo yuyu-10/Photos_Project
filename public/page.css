@@ -61,7 +61,7 @@ html, body {
   justify-content: center;
 }
 
-.contact {
+#contact {
   margin-top: 10vh;
 }
 
@@ -112,7 +112,7 @@ p {
   position: absolute;
   background-color: black;
   width: 100%;
-  height: 110%;
+  height: 100%;
 }
 
 #menu {
@@ -753,7 +753,7 @@ input:checked + .slide-container .nav label { display: block; }
       position: absolute;
   }
 
-  .contact {
+  #contact {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
@@ -1279,9 +1279,5 @@ input:checked + .slide-container .nav label { display: block; }
 
   .image-portrait-left h1, .image-portrait-right h1{
     font-size: 5vh;
-  }
-
-  #hamburger-menu {
-    height: 150%;
   }
 }
