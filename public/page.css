@@ -112,7 +112,7 @@ p {
   position: absolute;
   background-color: black;
   width: 100%;
-  height: 100%;
+  height: 110%;
 }
 
 #menu {
@@ -280,14 +280,14 @@ a {
 }
 
 #tacombi-mobile {
-  width: 65%;
-  opacity: 65%;
-}
-
-#double-tag-mobile {
   width: 80%;
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+#double-tag-mobile {
+  width: 65%;
+  opacity: 65%;
 }
 
 #garden-mobile {
@@ -376,7 +376,7 @@ a {
 
 #div-text-peace {
   position: absolute;
-  left: -20%;
+  left: -10%;
   bottom: 0;
   rotate: 270deg;
 }
@@ -403,7 +403,7 @@ span {
 #container-carousel {
   display: flex;
   flex-direction: column-reverse;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 #container-carousel h1 {
@@ -1005,14 +1005,14 @@ input:checked + .slide-container .nav label { display: block; }
       /* background-color: red; */
     }
 
-    #div-tacombi {
+    #div-tag {
       width: 100%;
       position: relative;
       /* background-color: red; */
     }
 
-    #tacombi {
-      width: 85%;
+    #tag {
+      width: 80%;
       position: absolute;
       bottom: 0;
       opacity: 65%;
@@ -1041,7 +1041,7 @@ input:checked + .slide-container .nav label { display: block; }
       align-items: center;
     }
 
-    #double-tag {
+    #tacombi{
       width: 50%;
       border: 2px solid black;
     }
@@ -1256,3 +1256,32 @@ input:checked + .slide-container .nav label { display: block; }
     }
 
   }
+
+/* CSS tablette */
+
+@media only screen and (min-width : 769px) and (max-device-width : 1024px) {
+  #street {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  #div-text-peace p{
+    font-size: 13vh;
+  }
+
+  .slide-image img {
+    height: auto;
+  }
+
+  #container-carousel {
+    margin-top: 50%;
+  }
+
+  .image-portrait-left h1, .image-portrait-right h1{
+    font-size: 5vh;
+  }
+
+  #hamburger-menu {
+    height: 150%;
+  }
+}

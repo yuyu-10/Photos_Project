@@ -8,7 +8,6 @@ const street2 = document.getElementById('street-2-mobile');
 const street3 = document.getElementById('street-3-mobile');
 const sectionPeace = document.getElementById('section-peace');
 const sectionPortrait = document.getElementById('section-portrait');
-const footer = document.getElementById('img-footer');
 
 const btnMenu = document.getElementById('btn-menu');
 btnMenu.addEventListener("click", openMenu);
@@ -24,7 +23,6 @@ function openMenu() {
     street3.style.display = 'none';
     sectionPeace.style.display = 'none';
     sectionPortrait.style.display = 'none';
-    footer.style.display = 'none';
 }
 
 const btnCloseMenu = document.getElementById('cross');
@@ -41,7 +39,6 @@ function closeMenu() {
     street3.style.display = 'inline-block';
     sectionPeace.style.display = 'inline-block';
     sectionPortrait.style.display = 'inline-block';
-    footer.style.display = 'inline-block';
 }
 
 // const buttonStreet = document.getElementById('button-street');
