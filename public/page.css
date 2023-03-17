@@ -2,7 +2,9 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #bcbcbc;
-  font-family: 'Unbounded', cursive;
+  /* font-family: 'Unbounded', cursive; */
+  font-family: 'Catamaran', sans-serif;
+  font-family: 'Prompt', sans-serif;
   /* font-family: 'Catamaran', sans-serif;
   font-family: 'Prompt', sans-serif; */
   width: 100%;
@@ -542,7 +544,7 @@ input:checked + .slide-container .nav label { display: block; }
       /* margin-top: 10%; */
     }
 
-    #portraits-title {
+    .portraits-title {
       background-image: url(photos/wall-face.jpg);
       background-repeat: repeat;
       -webkit-background-clip: text;
@@ -551,10 +553,10 @@ input:checked + .slide-container .nav label { display: block; }
       text-align: center;
       font-weight: bold;
       text-transform: uppercase;
-      font-family: 'Steelfish Rg', 'helvetica neue',
-                  helvetica, arial, sans-serif;
+      /* font-family: 'Steelfish Rg', 'helvetica neue',
+                  helvetica, arial, sans-serif; */
       /* font-weight: 800; */
-      -webkit-font-smoothing: antialiased;
+      /* -webkit-font-smoothing: antialiased; */
       margin: 0;
       padding: 0;
       margin-bottom: -0.6rem;
@@ -570,24 +572,6 @@ input:checked + .slide-container .nav label { display: block; }
       display: flex;
       justify-content: center;
       flex-direction: column;
-    }
-
-    .portraits-title {
-      background-image: url(photos/wall-face.jpg);
-      background-repeat: repeat;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-size: 7vh;
-      text-align: center;
-      font-weight: bold;
-      text-transform: uppercase;
-      font-family: 'Steelfish Rg', 'helvetica neue',
-                  helvetica, arial, sans-serif;
-      /* font-weight: 800; */
-      -webkit-font-smoothing: antialiased;
-      margin: 0;
-      padding: 0;
-      margin-bottom: -0.8rem;
     }
 
     #wall-face {
@@ -614,17 +598,16 @@ input:checked + .slide-container .nav label { display: block; }
       /* border: 3px solid grey; */
     }
 
-    .image-portrait-left h1 {
+    /* .image-portrait-left h1 {
       font-size: 3vh;
       -webkit-text-stroke: 1px;
       -webkit-text-stroke-color: black;
-    }
+    } */
 
     .image-portrait-right {
       width: 100%;
       display: flex;
-      justify-content: space-between;
-      align-items: center;
+      flex-direction: row-reverse;
     }
 
     .image-portrait-right img {
@@ -632,11 +615,11 @@ input:checked + .slide-container .nav label { display: block; }
       /* border: 3px solid grey; */
     }
 
-    .image-portrait-right h1 {
+    /* .image-portrait-right h1 {
       font-size: 3vh;
       -webkit-text-stroke: 1px;
       -webkit-text-stroke-color: black;
-    }
+    } */
 
     
     footer img {
@@ -780,7 +763,12 @@ input:checked + .slide-container .nav label { display: block; }
   }
 
   #sentence-insta p {
+    font-size: 5vh;
+  }
+
+  #insta {
     font-size: 4vh;
+    text-decoration: none;
   }
   
   #div-insta {
@@ -919,10 +907,11 @@ input:checked + .slide-container .nav label { display: block; }
       /* right: 70vh;*/
       justify-content: space-between;
       z-index: 1;
+      font-weight : bolder;
     }
   
     .p-street {
-      font-size: 25px;
+      font-size: 4vh;
     }
 
     /*street 2*/
@@ -1193,19 +1182,19 @@ input:checked + .slide-container .nav label { display: block; }
     .portraits-title {
       background-image: url(photos/wall-face.jpg);
       background-repeat: repeat;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      /* -webkit-background-clip: text; */
+      /* -webkit-text-fill-color: transparent; */
       font-size: 20vh;
       text-align: center;
       font-weight: bold;
-      text-transform: uppercase;
-      font-family: 'Steelfish Rg', 'helvetica neue',
-                  helvetica, arial, sans-serif;
+      /* text-transform: uppercase; */
+      /* font-family: 'Steelfish Rg', 'helvetica neue',
+                  helvetica, arial, sans-serif; */
       /* font-weight: 800; */
-      -webkit-font-smoothing: antialiased;
+      /* -webkit-font-smoothing: antialiased; */
       margin: 0;
       padding: 0;
-      margin-bottom: -2.5rem;
+      margin-bottom: -4.5rem;
     }
 
     #wall-face {
