@@ -289,11 +289,9 @@ a {
 
 #double-tag-mobile {
   width: 65%;
-  opacity: 65%;
 }
 
 #garden-mobile {
-  opacity: 65%;
   width: 65%;
 }
 
@@ -1004,7 +1002,6 @@ input:checked + .slide-container .nav label { display: block; }
       width: 80%;
       position: absolute;
       bottom: 0;
-      opacity: 65%;
     }
 
     #div-garden {
@@ -1018,7 +1015,6 @@ input:checked + .slide-container .nav label { display: block; }
       position: absolute;
       width: 75%;
       right: 0;
-      opacity: 65%;
     }
 
     #container-2 {
